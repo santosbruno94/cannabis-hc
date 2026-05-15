@@ -24,9 +24,25 @@ Nichos descartados: PAD, direito bancário, improbidade administrativa.
 - **Logo**: balança da justiça em SVG
 - **Tom**: sóbrio, técnico, acessível. Sem jargão desnecessário.
 
+## Arquitetura Site × Landing Page
+
+Dois artefatos digitais com propósitos distintos e complementares:
+
+| Artefato | Propósito | Audiência | Tom |
+|----------|-----------|-----------|-----|
+| **Site institucional** (`brunoleite.adv.br`) | Âncora de credibilidade — quem pesquisa o nome no Google chega aqui. Apresenta o escritório, o advogado, as áreas de atuação. | Pesquisa orgânica, indicações, due diligence | Institucional, sem urgência |
+| **Landing page de nicho** (`/lp/cannabis`, `/lp/execucao-penal`, etc.) | Destino do tráfego pago — quem clica no anúncio vai direto à página de conversão, sem navegação do site, sem distrações. | Tráfego pago (Google/Meta Ads) | Direto, orientado à ação, CTA claro |
+
+**Regras de ouro:**
+- LP não tem menu de navegação — o único caminho é o CTA (WhatsApp / formulário).
+- Site não tem promessas de resultado — conteúdo informativo e técnico.
+- Ambos podem coexistir no mesmo repositório (pastas `/site` e `/lp/<nicho>`) ou em subdomínios (`lp.brunoleite.adv.br`).
+- Agentes especializados: **marketing** e **landing-page** atuam nas LPs; **conteudo-site** atua no site institucional.
+
 ## Infraestrutura
 
 - **Site**: GitHub Pages (repo `santosbruno94/cannabis-hc`), domínio via Registro.br
+- **Estrutura de pastas**: `/site` (institucional) · `/lp/<nicho>` (landing pages de conversão)
 - **Email profissional**: contato@brunoleite.adv.br
 - **Social**: Instagram @brunoleiteadvocacia, WhatsApp Business
 - **Google Business Profile**: pendente reativação (verificação por vídeo)
