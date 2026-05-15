@@ -770,6 +770,22 @@ img { display: block; max-width: 100%; }
   .docs-col-desc { display: block; padding: 0; font-size: 0.8rem; }
 }
 
+/* ── Fix mobile tabela de documentação ───────────────────────
+   Problema: entre 601px e ~768px o grid de 3 colunas estoura
+   o container. Abaixo de 600px já vira display:block (ok).
+   Solução: wrapper com scroll horizontal nessa faixa.          */
+
+.docs-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 768px) and (min-width: 601px) {
+  .docs-table {
+    min-width: 560px;
+  }
+}
+
 /* ===================== Lawyer card ===================== */
 .who-card {
   background: var(--navy-light);
