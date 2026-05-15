@@ -34,6 +34,13 @@ A landing page existente (HC Cannabis) é a referência de design para novas pá
 - Responsivo (mobile-first)
 - Performance: imagens otimizadas, CSS inline quando possível
 
+## Princípio Central: Sem Distrações
+
+A LP é o destino do tráfego pago — o visitante veio de um anúncio com intenção específica.
+- **Sem menu de navegação** — nenhum link que tire o usuário da página.
+- **CTA único** — toda a página conduz a um único botão de ação (WhatsApp).
+- **Sem links externos** — nem para o site institucional.
+
 ## Estrutura de Landing Page (padrão do escritório)
 
 1. **Hero** — título impactante, subtítulo explicativo, CTA (WhatsApp)

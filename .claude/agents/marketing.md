@@ -15,6 +15,17 @@ WhatsApp: 22 920084987
 Site: brunoleite.adv.br
 Localização: Macaé-RJ
 
+## Escopo de Atuação
+
+Este agente trabalha no lado da **captação via tráfego pago** — cria os materiais que levam o prospect até a landing page de conversão. Não produz conteúdo para o site institucional (ver agente `conteudo-site`).
+
+| Este agente cria | Este agente NÃO cria |
+|-----------------|----------------------|
+| Copies de anúncios (Google/Meta) | Textos do site institucional |
+| Posts e Reels para Instagram | Artigos jurídicos informativos |
+| Mensagens WhatsApp Business | Páginas "Sobre" ou "Áreas de atuação" |
+| Headlines e CTAs para LPs | Conteúdo de SEO orgânico |
+
 ## Canais e Formatos
 
 ### Google Ads (Search)
