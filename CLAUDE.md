@@ -36,13 +36,13 @@ Dois artefatos digitais com propósitos distintos e complementares:
 **Regras de ouro:**
 - LP não tem menu de navegação — o único caminho é o CTA (WhatsApp / formulário).
 - Site não tem promessas de resultado — conteúdo informativo e técnico.
-- Ambos podem coexistir no mesmo repositório (pastas `/site` e `/lp/<nicho>`) ou em subdomínios (`lp.brunoleite.adv.br`).
+- Ambos coexistem no mesmo repositório: o site institucional vive na **raiz** do repo; as landing pages de conversão, quando criadas, ficam em `/lp/<nicho>` (ou em subdomínio `lp.brunoleite.adv.br`).
 - Agentes especializados: **marketing** e **landing-page** atuam nas LPs; **conteudo-site** atua no site institucional.
 
 ## Infraestrutura
 
 - **Site**: GitHub Pages (repo `santosbruno94/cannabis-hc`), domínio via Registro.br
-- **Estrutura de pastas**: `/site` (institucional) · `/lp/<nicho>` (landing pages de conversão)
+- **Estrutura atual**: site institucional na raiz do repo — `index.html`, `sobre.html` e páginas informativas por área (`cannabis-medicinal.html`, `medicamentos-sus.html`, `medicamentos-alto-custo.html`, `lei-seca.html`), com `styles.css`, `colors_and_type.css`, `site.js` (JS compartilhado) e `/assets` (logo e fotos). Landing pages de conversão: reservado `/lp/<nicho>` (nenhuma criada ainda)
 - **Email profissional**: contato@brunoleite.adv.br
 - **Social**: Instagram @brunoleiteadvocacia, WhatsApp Business
 - **Google Business Profile**: pendente reativação (verificação por vídeo)
