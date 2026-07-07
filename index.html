@@ -22,7 +22,7 @@
   </a>
   <ul class="nav-links">
     <li><a href="/index.html" class="active">Início</a></li>
-    <li><a href="/cannabis-medicinal.html">Cannabis Medicinal</a></li>
+    <li><a href="#areas">Áreas de atuação</a></li>
     <li><a href="#contato">Contato</a></li>
   </ul>
   <button class="nav-hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
@@ -32,7 +32,7 @@
 <div class="nav-mobile" id="nav-mobile" aria-hidden="true">
   <ul>
     <li><a href="/index.html">Início</a></li>
-    <li><a href="/cannabis-medicinal.html">Cannabis Medicinal</a></li>
+    <li><a href="#areas">Áreas de atuação</a></li>
     <li><a href="#contato">Contato</a></li>
   </ul>
 </div>
@@ -71,6 +71,30 @@
         <div class="area-card-label">Direito da Saúde</div>
         <h3 class="area-card-title">Cannabis Medicinal</h3>
         <p class="area-card-desc">Habeas Corpus Preventivo com pedido de salvo-conduto para pacientes que necessitam do cultivo doméstico de cannabis para fins terapêuticos.</p>
+        <span class="area-card-link">Leia mais <span aria-hidden="true">→</span></span>
+      </a>
+
+      <a href="/medicamentos-sus.html" class="area-card-enhanced">
+        <div class="area-card-num">II</div>
+        <div class="area-card-label">Direito da Saúde</div>
+        <h3 class="area-card-title">Medicamentos pelo SUS</h3>
+        <p class="area-card-desc">Como obter medicamentos gratuitamente pela rede pública — Farmácia Popular, RENAME e os componentes da assistência farmacêutica do SUS.</p>
+        <span class="area-card-link">Leia mais <span aria-hidden="true">→</span></span>
+      </a>
+
+      <a href="/medicamentos-alto-custo.html" class="area-card-enhanced">
+        <div class="area-card-num">III</div>
+        <div class="area-card-label">Direito da Saúde</div>
+        <h3 class="area-card-title">Medicamentos de Alto Custo</h3>
+        <p class="area-card-desc">Componente Especializado da Assistência Farmacêutica e os caminhos administrativo e judicial quando o fornecimento do tratamento é negado.</p>
+        <span class="area-card-link">Leia mais <span aria-hidden="true">→</span></span>
+      </a>
+
+      <a href="/lei-seca.html" class="area-card-enhanced">
+        <div class="area-card-num">IV</div>
+        <div class="area-card-label">Direito Criminal</div>
+        <h3 class="area-card-title">Lei Seca e Bafômetro</h3>
+        <p class="area-card-desc">O que diz a lei sobre o teste do bafômetro, as consequências da recusa e a diferença entre infração administrativa e crime de trânsito.</p>
         <span class="area-card-link">Leia mais <span aria-hidden="true">→</span></span>
       </a>
 
@@ -137,28 +161,7 @@
 <!-- WhatsApp Float -->
 <a href="https://wa.me/5522920084987?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20do%20escrit%C3%B3rio." class="wpp-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
 
-<script>
-  /* Hamburger menu */
-  const hamburger = document.getElementById('hamburger');
-  const navMobile = document.getElementById('nav-mobile');
-  hamburger.addEventListener('click', () => {
-    const open = hamburger.classList.toggle('open');
-    navMobile.classList.toggle('open');
-    hamburger.setAttribute('aria-expanded', String(open));
-    navMobile.setAttribute('aria-hidden', String(!open));
-  });
-
-  /* Reveal on scroll */
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        e.target.classList.add('visible');
-        observer.unobserve(e.target);
-      }
-    });
-  }, { threshold: 0.1 });
-  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-</script>
+<script src="/site.js"></script>
 
 </body>
 </html>
