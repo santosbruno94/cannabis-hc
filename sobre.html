@@ -23,7 +23,7 @@
   <ul class="nav-links">
     <li><a href="/index.html">Início</a></li>
     <li><a href="/sobre.html" class="active">O Escritório</a></li>
-    <li><a href="/cannabis-medicinal.html">Cannabis Medicinal</a></li>
+    <li><a href="/index.html#areas">Áreas de atuação</a></li>
     <li><a href="#contato">Contato</a></li>
   </ul>
   <button class="nav-hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
@@ -34,7 +34,7 @@
   <ul>
     <li><a href="/index.html">Início</a></li>
     <li><a href="/sobre.html">O Escritório</a></li>
-    <li><a href="/cannabis-medicinal.html">Cannabis Medicinal</a></li>
+    <li><a href="/index.html#areas">Áreas de atuação</a></li>
     <li><a href="#contato">Contato</a></li>
   </ul>
 </div>
@@ -128,21 +128,7 @@
 <!-- WhatsApp Float -->
 <a href="https://wa.me/5522920084987?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os%20do%20escrit%C3%B3rio." class="wpp-float" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
 
-<script>
-  const hamburger = document.getElementById('hamburger');
-  const navMobile = document.getElementById('nav-mobile');
-  hamburger.addEventListener('click', () => {
-    const open = hamburger.classList.toggle('open');
-    navMobile.classList.toggle('open');
-    hamburger.setAttribute('aria-expanded', String(open));
-    navMobile.setAttribute('aria-hidden', String(!open));
-  });
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
-  }, { threshold: 0.1 });
-  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-</script>
+<script src="/site.js"></script>
 
 </body>
 </html>

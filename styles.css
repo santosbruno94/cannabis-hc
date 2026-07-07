@@ -1093,8 +1093,8 @@ img { display: block; max-width: 100%; }
 /* ===================== Enhanced area cards ===================== */
 .areas-grid-enhanced {
   display: grid;
-  grid-template-columns: 1fr;
-  max-width: 480px;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1000px;
   gap: 1.5rem;
   margin-top: 3rem;
 }
